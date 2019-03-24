@@ -2079,3 +2079,456 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:19:48 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (196.8ms)
+Completed 500 Internal Server Error in 217ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007fc9d24d8cc8>:0x00007fc9d24f5f30>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb___3327115841510449560_70252396728720'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:21:41 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (275.2ms)
+Completed 500 Internal Server Error in 296ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007fc9d24d8cc8>:0x00007fc9d0cf8e00>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb___3327115841510449560_70252384211300'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:22:10 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (200.9ms)
+Completed 500 Internal Server Error in 230ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007f896def9608>:0x00007f896dee1850>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb__4115903975931531_70114115834320'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:23:00 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (194.4ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007ff99ed71898>:0x00007ff99e766bd8>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb__2474744331232950742_70355044242380'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:23:50 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (192.3ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007ff99ed71898>:0x00007ff9a2010358>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb__2474744331232950742_70355070781040'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:24:04 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (226.3ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007fc9532ca730>:0x00007fc9532bfa60>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb___1621121471570545946_70251330296580'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:24:20 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (192.2ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007f93a46cb210>:0x00007f93a46c8448>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb__3175589791456216360_70136047649020'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:25:05 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (168.5ms)
+Completed 500 Internal Server Error in 179ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007f93a46cb210>:0x00007f93a474b1e0>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb__3175589791456216360_70136048017140'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:25:32 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (1.5ms)
+Completed 200 OK in 23ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:26:16 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (195.6ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `t1_path' for #<#<Class:0x00007fda26c20170>:0x00007fda26c08250>
+Did you mean?  font_path):
+    1: <h1>Hello World</h1>
+    2: <%= link_to 't1', t1_path(@t1) %>
+  
+app/views/convert/index.html.erb:2:in `_app_views_convert_index_html_erb___1808959218685616856_70287464925060'
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:26:43 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (1.5ms)
+Completed 200 OK in 25ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:27:11 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (2.0ms)
+Completed 200 OK in 23ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:27:13 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (0.4ms)
+Completed 200 OK in 15ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:27:30 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (1.7ms)
+Completed 200 OK in 23ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-22 19:27:39 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (0.7ms)
+Completed 200 OK in 16ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/converter/temperature" for 127.0.0.1 at 2019-03-22 19:27:44 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/converter/temperature"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/convert/show" for 127.0.0.1 at 2019-03-22 19:27:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/convert/show"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/convert/index" for 127.0.0.1 at 2019-03-22 19:27:59 -0400
+Processing by ConvertController#index as HTML
+  Rendering convert/index.html.erb
+  Rendered convert/index.html.erb (0.4ms)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/convert/show" for 127.0.0.1 at 2019-03-22 19:28:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/convert/show"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/convert/show" for 127.0.0.1 at 2019-03-22 19:28:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/convert/show"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/convert/show" for 127.0.0.1 at 2019-03-22 19:28:55 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/convert/show"):
+  
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/convert/show" for 127.0.0.1 at 2019-03-22 19:30:49 -0400
+Processing by ConvertController#show as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertController::T1):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:33:47 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"t1"=>"1"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertController::T1):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:35:30 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"t1"=>"1"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertController::T):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:35:42 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"t1"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:35:56 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"t1"=>"1"}
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `convert' for #<ConvertController:0x00007f85d60ee3f0>
+Did you mean?  concern):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:36:21 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"t1"=>"1"}
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `routes' for #<ConvertController:0x00007f85d26c7938>
+Did you mean?  _routes
+               @_routes):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:38:28 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"tStart"=>"1"}
+Completed 500 Internal Server Error in 347ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `tStart' for #<ConvertController:0x00007f95d5addc08>
+Did you mean?  tStart_url):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:38:37 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"tStart"=>"1"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `find' for "http://localhost:3000/convert/1":String):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:39:01 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"tStart"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertController::TStart):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 19:59:33 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"tStart"=>"1"}
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertController::TStart):
+  
+app/controllers/convert_controller.rb:3:in `show'
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 20:03:10 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"tStart"=>"1"}
+Completed   in 1453371ms (ActiveRecord: 0.0ms)
+
+
+  [1m[35m (19.8ms)[0m  [1m[35mCREATE DATABASE "postgres" ENCODING = 'unicode'[0m
+  ↳ /Users/kimberlybernhardt/.rvm/gems/ruby-2.5.0/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE DATABASE "postgres" ENCODING = 'unicode'[0m
+  ↳ /Users/kimberlybernhardt/.rvm/gems/ruby-2.5.0/bin/rake:23
+Started GET "/convert/1" for 127.0.0.1 at 2019-03-22 20:28:32 -0400
+Processing by ConvertController#show as HTML
+  Parameters: {"tStart"=>"1"}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertController::TStart):
+  
+app/controllers/convert_controller.rb:3:in `show'
