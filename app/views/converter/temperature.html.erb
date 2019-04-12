@@ -4,9 +4,25 @@
   <p>Starting Temperature</p>
 
   <%= @tStart %>
-  <%= @d1 %>
+  <%=
+  if @d1 == "c"
+    @d1 = "ºC"
+  elsif @d1 == "f"
+    @d1 = "ºF"
+  else
+    @d1 = "ºK"
+  end
+  %>
 
-  <p>Converted to <%= @d2 %></p>
+  <p>Converted to <%=
+  if @d1 == "c"
+    @d1 = "Celsius"
+  elsif @d1 == "f"
+    @d1 = "Fahrenheit"
+  else
+    @d1 = "Kelvin"
+  end
+  %></p>
 
   <p>Final Temperature</p>
 </head>
@@ -35,5 +51,14 @@
       end
     end
   %>
-  <%= @d2 %>
+
+  <%=
+  if @d1 == "c"
+    @d1 = "ºC"
+  elsif @d1 == "f"
+    @d1 = "ºF"
+  else
+    @d1 = "ºK"
+  end
+  %>
 </body>
