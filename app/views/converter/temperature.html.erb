@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <h1>Temperature Converter</h1>
+  <p>Starting Temperature</p>
+
+  <%= @tStart %>
+  <%= @d1 %>
+
+  <p>Converted to <%= @d2 %></p>
+
+  <p>Final Temperature</p>
+</head>
+
+<body>
+  <%=
+    @tStart = @tStart.to_f
+    @tEnd = 0.0
+    if @d1 == "c"
+      if @d2 == "f"
+        @tEnd = (@tStart * 9/5) + 32.0
+      else
+        @tEnd = @tStart + 273.15
+      end
+    elsif @d1 == "f"
+      if @d2 == "c"
+        @tEnd = (@tStart - 32.0) * 5/9
+      else
+        @tEnd = (@tStart - 32.0) * 5/9 + 273.15
+      end
+    else
+      if @d2 == "c"
+        @tEnd = @tStart - 273.15
+      else
+        @tEnd = (@tStart - 273.15) * 9/5 + 32.0
+      end
+    end
+  %>
+  <%= @d2 %>
+</body>
